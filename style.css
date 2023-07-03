@@ -1,0 +1,115 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    line-height: 2.0em;
+    color: maroon;
+}
+
+
+.pimg1{
+    background-image: url(images/travel.jpg);
+    min-height: 100%;
+    background-size:cover;
+}
+.pimg2{
+    background-image: url(images/New\ york.jpg);
+    min-height: 100%;
+    background-size:cover;
+}
+.pimg3{
+    background-image: url(images/amalfi.jpg);
+    min-height: 100%;
+    background-size:cover;
+}
+.pimg4{
+    background-image: url(images/anna-oliinyk-83ZTkQf_EE8-unsplash.jpg);
+    min-height: 100%;
+    background-size:cover;
+}
+.pimg5{
+    background-image: url(images/bruges.jpg);
+    min-height: 100%;
+    background-size:cover;
+}
+.pimg6{
+    background-image: url(images/casablanca.jpg);
+    min-height: 100%;
+    background-size:cover;
+}
+.pimg7{
+    background-image: url(images/cinque\ terre.jpg);
+    min-height: 100%;
+    background-size:cover;
+}
+.pimg8{
+    background-image: url(images/edinburg.jpg);
+    min-height: 100%;
+    background-size:cover;
+}
+
+.pimg9{
+    background-image: url(images/kolkata.jpg);
+    min-height: 100%;
+    background-size:cover;
+}
+.pimg10{
+    background-image: url(images/prague.jpg);
+    min-height: 100%;
+    background-size:cover;
+}
+.pimg11{
+    background-image: url(images/sicily.jpg);
+    min-height: 100%;
+    background-size:cover;
+}
+.pimg12{
+    background-image: url(images/tokyo.jpg);
+    min-height: 100%;
+    background-size:cover;
+}
+.pimg1,.pimg2,.pimg3,.pimg4,.pimg5,.pimg6,.pimg7,.pimg8
+,.pimg9,.pimg10,.pimg11,.pimg12{
+    position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 47px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+  .textbg {
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  .section {
+    padding: 50px 80px;
+    text-align: center;
+  }
+  .section-light {
+    background-color: #f4f4f4;
+    color: #666;
+  }
+  .section-dark {
+    background-color: #282e34;
+    color: #ddd;
+  }
+p{
+    letter-spacing: 2px;
+}
+h2{
+    text-transform: uppercase;
+}
